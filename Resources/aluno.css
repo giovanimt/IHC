@@ -1,0 +1,70 @@
+body{
+    color: #333333;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #f8aa60;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: lightsalmon;
+}
+
+.cursos{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.outros{
+    background-color: darkgrey;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.botao_laranja {
+    border-radius: 7px;
+    box-shadow: 0px 1px 3px #666666;
+    color: whitesmoke;
+    font-size: 15px;
+    background: #f8aa60;
+    padding: 7px 10px 7px 10px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.botao_laranja:active {
+    background-color: #d19c44;
+    box-shadow: 0 5px #666;
+}
+
+.column{
+    padding-left: 5%;
+    padding-bottom: 10px;
+}

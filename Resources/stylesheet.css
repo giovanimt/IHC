@@ -1,0 +1,169 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: dimgrey;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: dimgrey;
+    padding: 24px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: lightsalmon;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: dimgrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.introducao{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f8aa60;
+}
+
+.column {
+    float: left;
+}
+
+.left_intro {
+    width: 60%;
+}
+
+.right_intro {
+    width: 40%;
+}
+
+.intro_txt{
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    color: #333333;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.botao_cinza {
+    border-radius: 7px;
+    box-shadow: 0px 1px 3px #666666;
+    color: #333333;
+    font-size: 20px;
+    background: #c8c8c8;
+    padding: 7px 10px 7px 10px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.botao_cinza:active {
+    background-color: #666666;
+    box-shadow: 0 5px #666;
+}
+
+.conteudo{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    color: #333333;
+    text-align: center;
+}
+
+.col_conteudo{
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.contato{
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    background-color: #f8aa60;
+    color: #333333;
+    text-align: center;
+}
+
+.col_contato{
+    width: 33%;
+}
+
+.botao_laranja {
+    border-radius: 7px;
+    box-shadow: 0px 1px 3px #666666;
+    color: whitesmoke;
+    font-size: 20px;
+    background: #f8aa60;
+    padding: 7px 10px 7px 10px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.botao_laranja:active {
+    background-color: #d19c44;
+    box-shadow: 0 5px #666;
+}
