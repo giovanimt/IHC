@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrições</title>
+    <link rel="stylesheet" href="Resources/aluno.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="Resources/tabs.js"></script>
+</head>
+<body>
+<div class="navbar">
+    <img src="Images/logo.jpg" height="72" style="float: left"/>
+    <a href="">Sair</a>
+    <a href="">Nivelamento</a>
+    <a href="">Certificados</a>
+    <a href="">Pagamento</a>
+    <a href="">Minha Página</a>
+</div>
+
+<div class="cursos">
+
+    <h2>Inscrição</h2>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openLang(event, 'Alemao')">Alemão</button>
+        <button class="tablinks" onclick="openLang(event, 'Espanhol')">Espanhol</button>
+        <button class="tablinks" onclick="openLang(event, 'Frances')">Francês</button>
+        <button class="tablinks" onclick="openLang(event, 'Grego')">Grego</button>
+        <button class="tablinks" onclick="openLang(event, 'Ingles')">Inglês</button>
+        <button class="tablinks" onclick="openLang(event, 'Italiano')">Italiano</button>
+        <button class="tablinks" onclick="openLang(event, 'Japones')">Japonês</button>
+        <button class="tablinks" onclick="openLang(event, 'Latim')">Latim</button>
+        <button class="tablinks" onclick="openLang(event, 'Russo')">Russo</button>
+        <button class="tablinks" onclick="openLang(event, 'Contos')">Escrita Criativa: Contos</button>
+    </div>
+
+    <div id="Alemao" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="alemao" value="A12A"> A1.2 - Sexta 18h30-21h45 - Arquitetura<br>
+            <input type="radio" name="alemao" value="A12B"> A1.2 - Sábado 9h–12h15 - Campus do Vale<br>
+            <h4>Outros níveis disponíveis:</h4>
+            <input type="radio" name="alemao" value="A11A"> A1.1 - Segunda 14h- 17h - Arquitetura<br>
+            <input type="radio" name="alemao" value="A11B"> A1.1 - Terça 9h- 12h - AGU Mostardeiro<br>
+            <input type="radio" name="alemao" value="A11C"> A1.1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Espanhol" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="espanhol" value="1A"> 1 - Quarta 18h30–21h45 - Arquitetura<br>
+            <input type="radio" name="espanhol" value="1B"> 1 - Sexta 14h-17h - Arquitetura<br>
+            <input type="radio" name="espanhol" value="1C"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Frances" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="frances" value="2A"> 2 - Quarta 14h-17h - Prédio 11209<br>
+            <input type="radio" name="frances" value="2B"> 2 - Quinta 14h-17h - Arquitetura<br>
+            <input type="radio" name="frances" value="2C"> 2 - Sábado 9h–12h15 - Campus do Vale<br>
+            <h4>Outros níveis disponíveis:</h4>
+            <input type="radio" name="frances" value="1A"> 1 - Segunda 14h-17h - Arquitetura<br>
+            <input type="radio" name="frances" value="1B"> 1 - Sexta 14h-17h - Arquitetura<br>
+            <input type="radio" name="frances" value="1C"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Grego" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="grego" value="1"> 1 - Sexta 14h-17h - Prédio 11209<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Ingles" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="ingles" value="1A"> 1 - Segunda 14h-17h - AGU Mostardeiro<br>
+            <input type="radio" name="ingles" value="1B"> 1 - Quinta 14h-17h - Prédio 11209<br>
+            <input type="radio" name="ingles" value="1C"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Italiano" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="italiano" value="1A"> 1 - Segunda 14h-17h - Prédio 11209<br>
+            <input type="radio" name="italiano" value="1B"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Japones" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="japones" value="1A"> 1 - Sexta 14h-17h - Prédio 11209<br>
+            <input type="radio" name="japones" value="1B"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Latim" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="latim" value="1"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Russo" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="russo" value="1"> 1 - Sexta 14h-17h - Arquitetura<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+    <div id="Contos" class="tabcontent">
+        <form>
+            <h3>Seu nível:</h3>
+            <input type="radio" name="contos" value="1"> 1 - Sexta 14h-17h - Prédio 11209<br>
+
+            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
