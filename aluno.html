@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <title>Minha Página</title>
     <link rel="stylesheet" href="Resources/aluno.css">
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="Resources/sureAlert.js"></script>
 </head>
 <body>
 <div class="navbar">
     <img src="Images/logo.jpg" height="72" style="float: left"/>
-    <a href="">Sair</a>
-    <a href="">Nivelamento</a>
-    <a href="">Certificados</a>
-    <a href="">Pagamento</a>
-    <a href="">Minha Página</a>
+    <a href="index.html">Sair</a>
+    <a href="nivelamento.html">Nivelamento</a>
+    <a href="certificados.html">Certificados</a>
+    <a href="pagamento.html">Pagamento</a>
+    <a href="dadosaluno.html">Meus Dados</a>
+    <a href="aluno.html">Minha Página</a>
 </div>
 
 <div class="cursos">
@@ -27,13 +28,17 @@
                 Campus: Arquitetura<br>
                 Sala: 303<br>
                 Material Didático: Alter Ego PLUS 1</h5>
-            <button type="button" class="botao_laranja">Pagamento</button>
-            <button type="button" class="botao_laranja">Excluir Matrícula</button>
+            <a href="pagamento.html">
+                <button type="button" class="botao_laranja">Pagamento</button>
+            </a>
+            <button onclick="sureAlertCancelamento()" type="button" class="botao_laranja">Cancelar Matrícula</button>
         </div>
         <div class="column">
             <h2>Curso 2</h2>
             <h5 style="padding-left: 10px">Você não está escrito um segundo curso.</h5>
-            <button type="button" class="botao_laranja">Inscrever-se</button>
+            <a href="inscricoes.html">
+                <button type="button" class="botao_laranja">Inscrever-se</button>
+            </a>
         </div>
     </div>
 </div>
@@ -42,11 +47,16 @@
     <div class="row">
         <div class="column" style="border-right-style: solid; border-right-color: whitesmoke">
             <h2>Teste de Nivelamento</h2>
-            <button type="button" class="botao_laranja">Inscrever-se</button>
+            <a href="nivelamento.html">
+                <button type="button" class="botao_laranja">Inscrever-se</button>
+            </a>
+
         </div>
         <div class="column">
             <h2>Certificados</h2>
-            <button type="button" class="botao_laranja">Obter</button>
+            <a href="certificados.html">
+                <button type="button" class="botao_laranja">Obter</button>
+            </a>
         </div>
     </div>
 </div>

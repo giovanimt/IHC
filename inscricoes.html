@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <title>Inscrições</title>
     <link rel="stylesheet" href="Resources/aluno.css">
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="Resources/tabs.js"></script>
+    <script src="Resources/sureAlert.js"></script>
 </head>
 <body>
 <div class="navbar">
     <img src="Images/logo.jpg" height="72" style="float: left"/>
-    <a href="">Sair</a>
-    <a href="">Nivelamento</a>
-    <a href="">Certificados</a>
-    <a href="">Pagamento</a>
-    <a href="">Minha Página</a>
+    <a href="index.html">Sair</a>
+    <a href="nivelamento.html">Nivelamento</a>
+    <a href="certificados.html">Certificados</a>
+    <a href="pagamento.html">Pagamento</a>
+    <a href="dadosaluno.html">Meus Dados</a>
+    <a href="aluno.html">Minha Página</a>
 </div>
 
 <div class="cursos">
 
     <h2>Inscrição</h2>
+    <h3>Escolha o curso:</h3>
 
     <div class="tab">
         <button class="tablinks" onclick="openLang(event, 'Alemao')">Alemão</button>
@@ -47,7 +49,7 @@
             <input type="radio" name="alemao" value="A11B"> A1.1 - Terça 9h- 12h - AGU Mostardeiro<br>
             <input type="radio" name="alemao" value="A11C"> A1.1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -58,7 +60,7 @@
             <input type="radio" name="espanhol" value="1B"> 1 - Sexta 14h-17h - Arquitetura<br>
             <input type="radio" name="espanhol" value="1C"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -73,7 +75,7 @@
             <input type="radio" name="frances" value="1B"> 1 - Sexta 14h-17h - Arquitetura<br>
             <input type="radio" name="frances" value="1C"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -82,7 +84,7 @@
             <h3>Seu nível:</h3>
             <input type="radio" name="grego" value="1"> 1 - Sexta 14h-17h - Prédio 11209<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -93,7 +95,7 @@
             <input type="radio" name="ingles" value="1B"> 1 - Quinta 14h-17h - Prédio 11209<br>
             <input type="radio" name="ingles" value="1C"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -103,7 +105,7 @@
             <input type="radio" name="italiano" value="1A"> 1 - Segunda 14h-17h - Prédio 11209<br>
             <input type="radio" name="italiano" value="1B"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -113,7 +115,7 @@
             <input type="radio" name="japones" value="1A"> 1 - Sexta 14h-17h - Prédio 11209<br>
             <input type="radio" name="japones" value="1B"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -122,7 +124,7 @@
             <h3>Seu nível:</h3>
             <input type="radio" name="latim" value="1"> 1 - Sábado 9h–12h15 - Campus do Vale<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -131,7 +133,7 @@
             <h3>Seu nível:</h3>
             <input type="radio" name="russo" value="1"> 1 - Sexta 14h-17h - Arquitetura<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 
@@ -140,7 +142,7 @@
             <h3>Seu nível:</h3>
             <input type="radio" name="contos" value="1"> 1 - Sexta 14h-17h - Prédio 11209<br>
 
-            <input type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
         </form>
     </div>
 

@@ -116,3 +116,28 @@ body{
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+.certificados{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pagamento{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nivelamento{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+td{
+    text-align: center;
+}

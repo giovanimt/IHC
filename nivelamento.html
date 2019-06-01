@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nivelamento</title>
+    <link rel="stylesheet" href="Resources/aluno.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="Resources/tabs.js"></script>
+    <script src="Resources/sureAlert.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="Images/logo.jpg" height="72" style="float: left"/>
+    <a href="index.html">Sair</a>
+    <a href="nivelamento.html">Nivelamento</a>
+    <a href="certificados.html">Certificados</a>
+    <a href="pagamento.html">Pagamento</a>
+    <a href="dadosaluno.html">Meus Dados</a>
+    <a href="aluno.html">Minha Página</a>
+</div>
+
+<div class="nivelamento">
+
+    <h2>Teste de Nivelamento: Inscrição</h2>
+    <h3>Escolha a data da prova:</h3>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openLang(event, 'D1')">16/03</button>
+    </div>
+
+    <div id="D1" class="tabcontent">
+        <form>
+            <input type="radio" name="nivelamento" value="alemao"> Alemão<br>
+            <input type="radio" name="nivelamento" value="espanhol"> Espanhol<br>
+            <input type="radio" name="nivelamento" value="frances"> Francês<br>
+            <input type="radio" name="nivelamento" value="grego"> Grego<br>
+            <input type="radio" name="nivelamento" value="ingles"> Inglês<br>
+            <input type="radio" name="nivelamento" value="italiano"> Italiano<br>
+            <input type="radio" name="nivelamento" value="japones"> Japonês<br>
+            <input type="radio" name="nivelamento" value="latim"> Latim<br>
+            <input type="radio" name="nivelamento" value="russo"> Russo<br>
+
+            <input onclick="sureAlert()" type="submit" class="botao_laranja" value="Inscrever-se" style="margin-top: 10px;margin-bottom: 10px">
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

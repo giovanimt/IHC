@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="Resources/aluno.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="Resources/tabs.js"></script>
+</head>
+<body>
+<div class="navbar">
+    <img src="Images/logo.jpg" height="72" style="float: left"/>
+    <a href="index.html">Sair</a>
+    <a href="nivelamento.html">Nivelamento</a>
+    <a href="certificados.html">Certificados</a>
+    <a href="pagamento.html">Pagamento</a>
+    <a href="dadosaluno.html">Meus Dados</a>
+    <a href="aluno.html">Minha Página</a>
+</div>
+
+<div class="pagamento">
+    <h2>Boletos</h2>
+    <h3>Escolha o ano:</h3>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openLang(event, '2018/2')">2018/2</button>
+        <button class="tablinks" onclick="openLang(event, '2019/1')">2019/1</button>
+
+    </div>
+
+    <div id="2018/2" class="tabcontent">
+        <table style="margin-left: 10%">
+            <tr>
+                <th>Curso</th>
+                <th>Nível</th>
+                <th>Valor</th>
+                <th>Vencimento</th>
+                <th>Boleto</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Alemão</td>
+                <td>1</td>
+                <td>R$220</td>
+                <td>21/08</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+            <tr>
+                <td>Alemão</td>
+                <td>1</td>
+                <td>R$205</td>
+                <td>10/10</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+            <tr>
+                <td>Francês</td>
+                <td>1</td>
+                <td>R$220</td>
+                <td>21/08</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+            <tr>
+                <td>Francês</td>
+                <td>1</td>
+                <td>R$205</td>
+                <td>10/10</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="2019/1" class="tabcontent">
+        <table style="margin-left: 10%">
+            <tr>
+                <th>Curso</th>
+                <th>Nível</th>
+                <th>Valor</th>
+                <th>Vencimento</th>
+                <th>Boleto</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Alemão</td>
+                <td>2</td>
+                <td>R$225</td>
+                <td>01/04</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+            <tr>
+                <td>Alemão</td>
+                <td>2</td>
+                <td>R$220</td>
+                <td>09/05</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+            <tr>
+                <td>Francês</td>
+                <td>2</td>
+                <td>R$225</td>
+                <td>01/04</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+            <tr>
+                <td>Francês</td>
+                <td>2</td>
+                <td>R$220</td>
+                <td>09/05</td>
+                <td>
+                    <button type="button" class="botao_laranja">Download</button>
+                </td>
+                <td>Pago</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>
