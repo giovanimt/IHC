@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Entrar</title>
+    <link rel="stylesheet" href="Resources/entrar.css">
+    <link rel="stylesheet" href="Resources/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 <div class="login">
-    <label for="uname"><b>Login</b></label>
-    <input type="text" placeholder="Entre Login" name="uname" required>
+    <h2>Entre no NELE</h2>
+    <form>
+        <h3>Login:</h3>
+        <input class="w3-input w3-border w3-round-large" type="text" placeholder="Entre Login" name="uname" required>
 
-    <label for="psw"><b>Senha</b></label>
-    <input type="password" placeholder="Entre Senha" name="psw" required>
+        <br>
 
-    <button type="submit">Entrar</button>
-    <button type="button">Cadastrar</button>
+        <h3>Senha:</h3>
+        <input class="w3-input w3-border w3-round-large" type="password" placeholder="Entre Senha" name="psw" required>
+
+        <br>
+
+        <a href="aluno.html">
+            <button class="botao_cinza" type="button">Entrar</button>
+        </a>
+        <button class="botao_cinza" type="button">Cadastrar</button>
+    </form>
 </div>
 </body>
 </html>
