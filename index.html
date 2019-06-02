@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Resources/stylesheet.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="Resources/hideAndShow.js"></script>
 </head>
 <body>
 <div class="navbar">
@@ -43,6 +44,136 @@
     <div class="row">
         <div class="column col_conteudo">
             <h2>Quadro de Horários</h2>
+            <h3>Clique no curso:</h3>
+
+            <table style="margin-left: 10%">
+                <tr>
+                    <td>
+                        <h4 onclick="hideAndShow('alemao')">Alemão</h4>
+                        <div id="alemao" style="display: none">
+                            <h5>Escolha o nível:</h5>
+                            <h5 onclick="hideAndShow('alemao11')">1.1</h5>
+                            <h6 id="alemao11" style="display: none">
+                                Segunda dàs 14h às 17h (Arquitetura)<br>
+                                Terça dàs 9h às 12h (AGU Mostardeiro)<br>
+                                Sábado dàs 9h às 12h15 (Campus do Vale)
+                            </h6>
+                            <h5 onclick="hideAndShow('alemao12')">1.2</h5>
+                            <h6 id="alemao12" style="display: none">
+                                Sábado dàs 9h às 12h15 (Campus do Vale)<br>
+                                Sexta dàs 18h30 às 21h45 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('alemao21')">2.1</h5>
+                            <h6 id="alemao21" style="display: none">
+                                Sexta dàs 18h30 às 21h45 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('alemao22')">2.2</h5>
+                            <h6 id="alemao22" style="display: none">
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('alemao23')">2.3</h5>
+                            <h6 id="alemao23" style="display: none">
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    <h4 onclick="hideAndShow('espanhol')">Espanhol</h4>
+                    <div id="espanhol" style="display: none">
+                        <h5>Escolha o nível:</h5>
+                        <h5 onclick="hideAndShow('espanhol1')">1</h5>
+                        <h6 id="espanhol1" style="display: none">
+                            Quarta dàs 18h30 às 21h45 (Arquitetura)<br>
+                            Sexta dàs 14h às 17h (Arquitetura)<br>
+                            Sábado dàs 9h às 12h15 (Campus do Vale)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol2')">2</h5>
+                        <h6 id="espanhol2" style="display: none">
+                            Sexta dàs 14h às 17h (Arquitetura)<br>
+                            Sexta dàs 18h30 às 21h45 (Arquitetura)<br>
+                            Sábado dàs 9h às 12h15 (Campus do Vale)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol3')">3</h5>
+                        <h6 id="espanhol3" style="display: none">
+                            Sexta dàs 9h às 12h (AGU Mostardeiro)<br>
+                            Sexta dàs 18h30 às 21h45 (Arquitetura)<br>
+                            Sábado dàs 9h às 12h15 (Arquitetura)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol4')">4</h5>
+                        <h6 id="espanhol4" style="display: none">
+                            Sábado dàs 9h às 12h15 (Arquitetura)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol5')">5</h5>
+                        <h6 id="espanhol5" style="display: none">
+                            Sexta dàs 18h30 às 21h45 (Arquitetura)<br>
+                            Sábado dàs 9h às 12h15 (Arquitetura)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol6')">6</h5>
+                        <h6 id="espanhol6" style="display: none">
+                            Sábado dàs 9h às 12h15 (Arquitetura)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol7')">7</h5>
+                        <h6 id="espanhol7" style="display: none">
+                            Sexta dàs 18h30 às 21h45 (Arquitetura)
+                        </h6>
+                        <h5 onclick="hideAndShow('espanhol8')">8</h5>
+                        <h6 id="espanhol8" style="display: none">
+                            Sábado dàs 9h às 12h15 (Arquitetura)
+                        </h6>
+                    </div>
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <h4 onclick="hideAndShow('frances')">Francês</h4>
+                        <div id="frances" style="display: none">
+                            <h5>Escolha o nível:</h5>
+                            <h5 onclick="hideAndShow('frances1')">1</h5>
+                            <h6 id="frances1" style="display: none">
+                                Segunda dàs 14h às 17h (Arquitetura)<br>
+                                Sexta dàs 14h às 17h (Arquitetura)<br>
+                                Sábado dàs 9h às 12h15 (Campus do Vale)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances2')">2</h5>
+                            <h6 id="frances2" style="display: none">
+                                Quarta dàs 14h às 17h (prédio 11209)<br>
+                                Quinta dàs 14h às 17h (Arquitetura)<br>
+                                Sábado dàs 9h às 12h15 (Campus do Vale)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances3')">3</h5>
+                            <h6 id="frances3" style="display: none">
+                                Quarta dàs 14h às 17h (AGU Mostardeiro)<br>
+                                Sexta dàs 18h30 às 21h45 (Arquitetura)<br>
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances4')">4</h5>
+                            <h6 id="frances4" style="display: none">
+                                Sexta dàs 14h às 17h (Arquitetura)<br>
+                                Sexta dàs 18h30 às 21h45 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances5')">5</h5>
+                            <h6 id="frances5" style="display: none">
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances6')">6</h5>
+                            <h6 id="frances6" style="display: none">
+                                Terça dàs 9h às 12h15 (Arquitetura)<br>
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances7')">7</h5>
+                            <h6 id="frances7" style="display: none">
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                            <h5 onclick="hideAndShow('frances8')">8</h5>
+                            <h6 id="frances8" style="display: none">
+                                Sábado dàs 9h às 12h15 (Arquitetura)
+                            </h6>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div class="column col_conteudo">
             <h2>Calendário</h2>
