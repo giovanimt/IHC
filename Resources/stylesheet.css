@@ -104,6 +104,7 @@
     padding: 7px 10px 7px 10px;
     border: none;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .botao_cinza:active {
@@ -161,9 +162,19 @@ tr:nth-child(odd) {
     padding: 7px 10px 7px 10px;
     border: none;
     transition-duration: 0.4s;
+    cursor:pointer;
 }
 
 .botao_laranja:active {
     background-color: #d19c44;
     box-shadow: 0 5px #666;
+    cursor: pointer;
+}
+
+h4:hover{
+    cursor:pointer;
+}
+
+h5:hover{
+    cursor:pointer;
 }
